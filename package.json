@@ -1,7 +1,7 @@
 {
   "name": "random-shout",
   "version": "1.1.0",
-  "description": "Takes a URL and retrieves its sitemap, then uses html-validator (a wrapper for https://validator.w3.org/nu/) to validate each page.",
+  "description": "Useless module for random shouting",
   "main": "index.js",
   "engines": {
     "node": ">=10.15.1"
