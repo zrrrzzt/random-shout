@@ -7,7 +7,7 @@ function shoutMore () {
 }
 
 module.exports = input => {
-  let words = input.split(' ')
+  const words = input.split(' ')
   const seed = Array.from(Array(words.length).keys())
   const wordsToShout = shuffle(seed)[0]
   let shoutCount = 0
