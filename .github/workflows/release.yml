@@ -1,4 +1,7 @@
 on: release
+  types: [published]
+  branches:
+    - master
 name: Build, Test, and Publish on release
 jobs:
   build:
