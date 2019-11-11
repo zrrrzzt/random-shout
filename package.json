@@ -1,6 +1,6 @@
 {
   "name": "random-shout",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Useless module for random shouting",
   "main": "index.js",
   "engines": {
