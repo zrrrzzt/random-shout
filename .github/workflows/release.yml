@@ -1,9 +1,8 @@
 name: Build, Test, and Publish on release
 on: release
-types:
-  - published
-branches:
-  - master
+  release:
+    types: [published]
+    branches: [master]
 jobs:
   build:
     name: Build, test and publish
