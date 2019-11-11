@@ -1,5 +1,5 @@
 name: Build, Test, and Publish on release
-on: release
+on:
   release:
     types: [published]
     branches: [master]
