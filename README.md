@@ -9,7 +9,7 @@ It takes a string, changes a random selection of words to UPPER CASE and adds a 
 # Usage
 
 ```JavaScript
-const randomShout = require('random-shout')
+import { randomShout } from 'random-shout'
 const sentence = 'To be, or not to be, that is the question'
 console.log(randomShout(sentence)) //=> To be, OR NOT to BE, THAT IS the QUESTION!!
 console.log(randomShout(sentence)) //=> To BE, or NOT to be, that is THE QUESTION!!!!

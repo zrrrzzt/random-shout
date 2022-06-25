@@ -3,6 +3,7 @@
   "version": "2.0.6",
   "description": "Useless module for random shouting",
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": ">=16.15.1"
   },

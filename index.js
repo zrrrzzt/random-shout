@@ -1,4 +1,4 @@
-const shuffle = require('crypto-shuffle')
+import shuffle from 'crypto-shuffle'
 
 function shoutMore () {
   const seed = Array.from(Array(7).keys())
@@ -6,7 +6,7 @@ function shoutMore () {
   return '!'.repeat(louder)
 }
 
-module.exports = input => {
+const randomShout = input => {
   const words = input.split(' ')
   const seed = Array.from(Array(words.length).keys())
   const wordsToShout = shuffle(seed)[0]
@@ -17,4 +17,10 @@ module.exports = input => {
     words[index] = words[index].toUpperCase()
   }
   return `${words.join(' ')}${shoutMore()}`
+}
+
+export default randomShout
+
+export {
+  randomShout
 }
