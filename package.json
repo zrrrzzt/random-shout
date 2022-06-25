@@ -42,7 +42,6 @@
   },
   "homepage": "https://github.com/zrrrzzt/random-shout#readme",
   "files": [
-    "lib/*.{js,json}",
     "index.js"
   ]
 }
