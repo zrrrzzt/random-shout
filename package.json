@@ -4,7 +4,7 @@
   "description": "Useless module for random shouting",
   "main": "index.js",
   "engines": {
-    "node": ">=14.19.1"
+    "node": ">=16.15.1"
   },
   "dependencies": {
     "crypto-shuffle": "1.0.1"
